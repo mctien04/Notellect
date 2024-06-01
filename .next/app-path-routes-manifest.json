@@ -1,0 +1,14 @@
+{
+  "/api/createNoteBook/route": "/api/createNoteBook",
+  "/_not-found": "/_not-found",
+  "/icon.ico/route": "/icon.ico",
+  "/page": "/",
+  "/dashboard/page": "/dashboard",
+  "/api/deleteNote/route": "/api/deleteNote",
+  "/api/completion/route": "/api/completion",
+  "/api/saveNote/route": "/api/saveNote",
+  "/api/uploadToFirebase/route": "/api/uploadToFirebase",
+  "/notebook/[noteId]/page": "/notebook/[noteId]",
+  "/sign-in/[[...sign-in]]/page": "/sign-in/[[...sign-in]]",
+  "/sign-up/[[...sign-up]]/page": "/sign-up/[[...sign-up]]"
+}

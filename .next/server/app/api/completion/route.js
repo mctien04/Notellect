@@ -1,0 +1,9 @@
+"use strict";(()=>{var e={};e.id=596,e.ids=[596],e.modules={30517:e=>{e.exports=require("next/dist/compiled/next-server/app-route.runtime.prod.js")},26448:(e,t,n)=>{n.r(t),n.d(t,{headerHooks:()=>v,originalPathname:()=>f,requestAsyncStorage:()=>m,routeModule:()=>c,serverHooks:()=>g,staticGenerationAsyncStorage:()=>h,staticGenerationBailout:()=>w});var o={};n.r(o),n.d(o,{POST:()=>l}),n(95655);var a=n(83323),i=n(54647),r=n(96056),s=n(2539);let p=new r.VK({apiKey:process.env.OPENAI_API_KEY}),d=new r.xd(p);async function l(e){let{prompt:t}=await e.json(),n=await d.createChatCompletion({model:"gpt-3.5-turbo",messages:[{role:"system",content:`You are a helpful AI embedded in a notion text editor app that is used to autocomplete sentences
+            The traits of AI include expert knowledge, helpfulness, cleverness, and articulateness.
+        AI is a well-behaved and well-mannered individual.
+        AI is always friendly, kind, and inspiring, and he is eager to provide vivid and thoughtful responses to the user.`},{role:"user",content:`
+        I am writing a piece of text in a notion text editor app.
+        Help me complete my train of thought here: ##${t}##
+        keep the tone of the text consistent with the rest of the text.
+        keep the response short and sweet.
+        `}],stream:!0}),o=(0,s.HP)(n);return new s.wn(o)}let u=a.AppRouteRouteModule,c=new u({definition:{kind:i.x.APP_ROUTE,page:"/api/completion/route",pathname:"/api/completion",filename:"route",bundlePath:"app/api/completion/route"},resolvedPagePath:"/Users/tiennguyen/Documents/Coding/AI-NOTE/src/app/api/completion/route.ts",nextConfigOutput:"",userland:o}),{requestAsyncStorage:m,staticGenerationAsyncStorage:h,serverHooks:g,headerHooks:v,staticGenerationBailout:w}=c,f="/api/completion/route"}};var t=require("../../../webpack-runtime.js");t.C(e);var n=e=>t(t.s=e),o=t.X(0,[727,11],()=>n(26448));module.exports=o})();

@@ -1,3 +1,14 @@
 {
-  "/page": "app/page.js"
+  "/api/createNoteBook/route": "app/api/createNoteBook/route.js",
+  "/_not-found": "app/_not-found.js",
+  "/icon.ico/route": "app/icon.ico/route.js",
+  "/page": "app/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/api/deleteNote/route": "app/api/deleteNote/route.js",
+  "/api/completion/route": "app/api/completion/route.js",
+  "/api/saveNote/route": "app/api/saveNote/route.js",
+  "/api/uploadToFirebase/route": "app/api/uploadToFirebase/route.js",
+  "/notebook/[noteId]/page": "app/notebook/[noteId]/page.js",
+  "/sign-in/[[...sign-in]]/page": "app/sign-in/[[...sign-in]]/page.js",
+  "/sign-up/[[...sign-up]]/page": "app/sign-up/[[...sign-up]]/page.js"
 }
